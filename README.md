@@ -45,6 +45,7 @@ Host: localhost:8080/modern
 ```
 Response
 ```
+    {
         "id": "modern-brewery-saint-louis",
         "name": "Modern Brewery",
         "brewery_type": "micro",
