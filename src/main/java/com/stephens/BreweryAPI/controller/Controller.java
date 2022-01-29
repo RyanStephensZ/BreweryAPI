@@ -20,7 +20,7 @@ public class Controller {
         return service.getAllBrews();
     }
 
-    @GetMapping("/{name}")
+    @GetMapping(path = "/{name}", produces = "application/json")
     public List<Brewery> findUserById(@PathVariable(value = "name") String name) {
         return service.getUserById(name);
     }
