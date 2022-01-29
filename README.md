@@ -17,6 +17,7 @@ Host: localhost:8080
 ```
 Response
 ```
+[
     {
         "id": "10-56-brewing-company-knox",
         "name": "10-56 Brewing Company",
@@ -36,6 +37,7 @@ Response
         "updated_at": "2021-10-23T02:24:55.243+00:00",
         "created_at": "2021-10-23T02:24:55.243+00:00"
     }
+]
 ```
 ### Find All Brews
 Request
@@ -45,6 +47,7 @@ Host: localhost:8080/modern
 ```
 Response
 ```
+[
     {
         "id": "modern-brewery-saint-louis",
         "name": "Modern Brewery",
@@ -64,4 +67,5 @@ Response
         "updated_at": "2021-10-23T02:24:55.243+00:00",
         "created_at": "2021-10-23T02:24:55.243+00:00"
     }
+]
 ```
