@@ -8,7 +8,7 @@ Path        Type    Produces                Description
 /{name}     GET     application/json        Find Brewery By Name
 ```
 
-##Example Request Rest API
+## Example Request Rest API
 ### Find All Brews
 Request
 ```
