@@ -2,7 +2,7 @@
 This is a Java / Gradle / Spring Boot application designed to get all breweries or specific breweries using https://api.openbrewerydb.org API
 
 Endpoints:
-```aidl
+```
 Path        Type    Produces                Description
 /           GET     application/json        Find all Breweries
 /{name}     GET     application/json        Find Brewery By Name
